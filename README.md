@@ -13,19 +13,19 @@ Style libs - Materialize for mobile-first layout, styled-components for Dark mod
 ### Instructions to run the project
 
 *Install dependencies*<br>
-The project was uploaded without any node_modules or package-lock.json, so please use the command line npm i in three places: root folder, front-end folder, back-end folder.
+The project was uploaded without any node_modules or package-lock.json, so please use the command line```npm i``` in three places: root folder, front-end folder, back-end folder.
 
 *Pre-seed the database*<br>
-sudo service mysql start
-mysql -u root -p
-source ./script.sql (or other relevant path to the root script.sql file)
+```sudo service mysql start``` (if necessary)<br>
+```mysql -u root -p```<br>
+```source ./script.sql```
 
 *Launch the app*<br>
-npm start on both front-end and back-end folders
+```npm start``` on both front-end and back-end folders, as indicated by both package.json settings.
 
 *Test linter*<br>
-npm install eslint
-./node_modules/.bin/eslint .path_file_you_want_to_analyze
+```npm install eslint```<br>
+```./node_modules/.bin/eslint .path_file_you_want_to_analyze```
 
 ### Ressources
 [Video demo](https://www.linkedin.com/posts/juliette-beaudet_react-nodejs-mysql-activity-6770742874754584576-XNz9) of the app ; <br>
