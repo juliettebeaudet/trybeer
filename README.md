@@ -13,7 +13,7 @@ Style libs - Materialize for mobile-first layout, styled-components for Dark mod
 ### Instructions to run the project
 
 *Install dependencies*<br>
-The project was uploaded without any node_modules or package-lock.json, so please use the command line```npm i``` in three places: root folder, front-end folder, back-end folder.
+The project was uploaded without any node_modules or package-lock.json, so please use the command line```npm i``` in three places: root, front-end, back-end.
 
 *Pre-seed the database*<br>
 ```sudo service mysql start``` (if necessary)<br>
@@ -21,7 +21,7 @@ The project was uploaded without any node_modules or package-lock.json, so pleas
 ```source ./script.sql```
 
 *Launch the app*<br>
-```npm start``` on both front-end and back-end folders, as indicated by both package.json settings.
+```npm start``` on both front-end and back-end, as indicated by both package.json settings.
 
 *Test linter*<br>
 ```npm install eslint```<br>
@@ -32,6 +32,6 @@ The project was uploaded without any node_modules or package-lock.json, so pleas
 [Figma](https://www.figma.com/file/tzP4txu6Uy0qCxVZWdWMBO/TryBeer?node-id=0%3A1 ) product flow design we based our development on ; <br> 
 [Project slides presentation (portuguese)](https://www.canva.com/design/DAEV9tS_qEc/ifjXL0GCUxOepagxH7gmRw/view?utm_content=DAEV9tS_qEc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) ; <br>
 [Original Trybe project repository](https://github.com/tryber/sd-05-trybeer) with all project requirements ; <br>
-[Trybeer V2 code](https://github.com/tryber/sd-05-project-trybeer-v2/pull/) with other requirements like ORM Sequelize, SOLID principles and real-time socket.io chat.
+[Trybeer V2 code](https://github.com/tryber/sd-05-project-trybeer-v2/pull/) with further requirements like ORM Sequelize, SOLID principles and real-time socket.io chat.
 
 
